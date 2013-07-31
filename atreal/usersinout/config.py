@@ -3,7 +3,50 @@
 
 PROJECTNAME = "atreal.usersinout"
 
+
 CSV_HEADER = [
+    'username',
+    'password',
+    'roles',
+    'email',
+    'fullname',
+    'location',
+    'description',
+    'home_page',
+    'wysiwyg_editor',
+    'ext_editor',
+    'listed',
+    'address',
+    'city',
+    'state',
+    'zipcode',
+    'phone',
+    'newsletter',
+    'accept',
+    'groups'
+]
+
+MEMBER_PROPERTIES = [
+    'email',
+    'fullname',
+    'location',
+    'description',
+    'home_page',
+    'wysiwyg_editor',
+    'ext_editor',
+    'listed',
+    'address',
+    'city',
+    'state',
+    'zipcode',
+    'phone',
+    'newsletter',
+    'accept'
+]
+
+
+
+orig_CSV_HEADER = [
     'username',
     'password',
     'roles',
@@ -17,7 +60,7 @@ CSV_HEADER = [
     'listed',
     'groups'
 ]
-MEMBER_PROPERTIES = [
+orig_MEMBER_PROPERTIES = [
     'email',
     'fullname',
     'location',
